@@ -17,18 +17,18 @@
     <div class="container">
         <div id="startpage">
             <h1>Mahdis Quiz</h1>
-            <h2>Do you know enough coding variables?</h2>
+            <h2>Do you know enough HTML/CSS/Javascript?</h2>
         <button id="startbtn">Start Quiz</button>
-        <button id="startPageHighscore" onclick="showHighscore()">High Scores</button>
+        <button id="startPageHighscore" onclick="showHighscores()">High Scores</button>
         </div>
 
         <div id="quiz">
             <div id="timer">Time left: </div>
                 <div id="questions"><p>Questions Placeholder</p></div>
-                    <button id="a" onclick="checkAnswer('a')">A</button>
-                    <button id="b" onclick="checkAnswer('b')">B</button>
-                    <button id="c" onclick="checkAnswer('c')">C</button>
-                    <button id="d" onclick="checkAnswer('d')">D</button>
+                    <button id="a" onclick="checkAns('a')">A</button>
+                    <button id="b" onclick="checkAns('b')">B</button>
+                    <button id="c" onclick="checkAns('c')">C</button>
+                    <button id="d" onclick="checkAns('d')">D</button>
                 <div id="result"></div>
         </div>
         <div id="gameover">
@@ -47,8 +47,8 @@
             <div id = "highscores"></div>
         </div>
         <div id="endGameBtns">
-            <button id="playAgain" onclick="replayQuiz()">Play Again</button>
-            <button id="clearHighscore" onclick="clearScore()">Clear Highscores</button>
+            <button id="playAgain" onclick="replayQ()">Play Again</button>
+            <button id="clearHighscore" onclick="clearScores()">Clear Highscores</button>
         </div>
     </div>
     </div>
