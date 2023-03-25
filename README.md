@@ -34,7 +34,7 @@ THEN I can save my initials and my score
 
 The following image shows the web application's appearance and functionality:
 
-![The Password Generator application displays a red button to "Generate Password".](./Assets/images/Output.PNG)
+![The Password Generator application displays a red button to "Generate Password".](./assets/images/Output.PNG)
 
 ## Installation
 
