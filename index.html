@@ -2,11 +2,10 @@
 <html lang="en">
 
 <head>
-    <!-- Required Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
-    <!-- Local CSS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="./assets/style.css">
 
     <!-- Page Title -->
@@ -19,12 +18,14 @@
             <h1>Mahdis Quiz</h1>
             <h2>Do you know enough HTML/CSS/Javascript?</h2>
         <button id="startbtn">Start Quiz</button>
+        <!-- Calls function showHighscores() when button is clicked -->
         <button id="startPageHighscore" onclick="showHighscores()">High Scores</button>
         </div>
 
         <div id="quiz">
             <div id="timer">Time left: </div>
                 <div id="questions"><p>Questions Placeholder</p></div>
+                <!-- Checks answer function on button click -->
                     <button id="a" onclick="checkAns('a')">A</button>
                     <button id="b" onclick="checkAns('b')">B</button>
                     <button id="c" onclick="checkAns('c')">C</button>
@@ -38,7 +39,9 @@
             <button id="submitScore">Submit Score</button>
         </div>
         <div id=highscoreCont>
+
         <div id="highscorePage">
+            
             <div id="highscore-header">
                 <h3>User Initials</h3>
                 <h3>Score</h3>
